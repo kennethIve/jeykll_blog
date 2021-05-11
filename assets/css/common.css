@@ -1,0 +1,14 @@
+/* header style */
+header{
+    text-align: center;
+}
+.header-title{
+    padding: 12px;
+}
+.header-title>a{
+    color: black;
+    font-size: 2em;
+}
+.header-title>a:hover{
+    text-decoration: none;
+}
