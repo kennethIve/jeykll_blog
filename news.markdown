@@ -1,6 +1,6 @@
 ---
 layout: post-listing
-title: News
+title: 最新資訊
 permalink: /news/
 active: news
 ---
