@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 #global settings
-title: title #ourUhk ‧ 我們IU香港後援會
+title: Site Title #ourUhk ‧ 我們IU香港後援會
 email: ouruhk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   ourUhk ‧ 我們IU香港後援會
@@ -29,11 +29,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 #social medio links
-facebook_url: facebook.com
-instagram_url: instagram.com
-mewe_url: mewe.com
-youtube_url: youtube.com
-twitter_url: twitter.com
+facebook_url: https://facebook.com
+instagram_url: https://instagram.com
+mewe_url: https://mewe.com
+youtube_url: https://youtube.com
+twitter_url: https://twitter.com
 
 #assets
 header-background: https://yt3.ggpht.com/wFiXi-rTNhwRaOaMH-ApslRGW9V2uIVs-PyA9UbtOvx3wXugFzAajgTOxCgE5Dk9L03dzhEjdw=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj

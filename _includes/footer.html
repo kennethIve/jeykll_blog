@@ -1,7 +1,18 @@
-<footer>
-    <div class=" uk-text-center uk-grid">
+<footer class="uk-text-center uk-padding-top-small">
+    <hr>
+    <div class="uk-grid" uk-grid>
         <div class="uk-width-expand">
-            Footer
+            <div>
+                <span>請關注：</span>
+                <a href="{{site.facebook_url}}" class="fa fa-social fa-facebook"></a>
+                <a href="{{site.twitter_url}}" class="fa fa-social fa-twitter"></a>
+                <a href="{{site.instagram_url}}" class="fa fa-social fa-instagram"></a>
+                <a href="{{site.youtube_url}}" class="fa fa-social fa-youtube"></a>
+                <a href="{{site.mewe_url}}" ><img class="fa-mewe" src="/assets/img/mewe.png"></a>
+            </div>
         </div>
     </div>
+    <h6 class="uk-heading-line uk-text-center uk-margin-small-top">
+        <span>© {{site.title}} {{ ' now' | date: "%Y" }} .All rights reserved.</span>
+    </h6>
 </footer>

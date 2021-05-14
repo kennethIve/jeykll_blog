@@ -3,7 +3,7 @@
     /* background: white; */
 }
 .menubar{
-    background: #f3c0ff42;
+    background: #fae8ff;
 }
 .header-title{
 
@@ -12,9 +12,9 @@
 </style>
 <header>
     <!-- mobile nav -->
-    <div class="uk-positon-top  uk-hidden@s">
+    <div class="menubar uk-positon-top  uk-hidden@s" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-left">
+            <div class="uk-navbar-center">
                 <span><a href="/">{{site.title}}</a></span>
             </div>
             <div class="uk-navbar-right">
@@ -26,22 +26,22 @@
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                 <ul class="uk-nav uk-margin-auto-vertical">
                     <li class="">
-                        <a class="" aria-current="page" href="/">主頁</a>
+                        <a class="" aria-current="page" href="{{/|relative_url}}">主頁</a>
                     </li>
                     <li class="">
-                        <a class="" aria-current="page" href="/news">IU 最新消息</a>
+                        <a class="" aria-current="page" href="{{/news|relative_url}}">IU 最新消息</a>
                     </li>
                     <li class="">
-                        <a class="" href="/groupbuy">最新團購</a>
+                        <a class="" href="{{/groupbuy|relative_url}}">最新團購</a>
                     </li>
                     <li class="">
-                        <a class="" href="/contact">聯絡方式</a>
+                        <a class="" href="{{/contact|relative_url}}">聯絡方式</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="uk-cover-container uk-dark">
+    <div class="uk-cover-container uk-dark uk-visible@s">
         <canvas width="" height=""></canvas>
         <!-- <img src="{{site.header-background}}"> -->
         <div class="uk-overlay uk-dark uk-position-center">
@@ -51,21 +51,21 @@
         </div>
     </div>
     <!-- desktop nav -->
-    <div class="uk-positon-top uk-visible@s" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;">
+    <div class="uk-positon-top uk-visible@s" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; animation: uk-animation-slide-top;">
         <nav class="menubar uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-center">
                 <ul class="uk-navbar-nav ">
                     <li class="">
-                        <a class="" aria-current="page" href="/">主頁</a>
+                        <a class="" aria-current="page" href="{{/|relative_url}}">主頁</a>
                     </li>
                     <li class="">
-                        <a class="" aria-current="page" href="/news">IU 最新消息</a>
+                        <a class="" aria-current="page" href="{{/news|relative_url}}">IU 最新消息</a>
                     </li>
                     <li class="">
-                        <a class="" href="/groupbuy">最新團購</a>
+                        <a class="" href="{{/groupbuy|relative_url}}">最新團購</a>
                     </li>
                     <li class="">
-                        <a class="" href="/contact">聯絡方式</a>
+                        <a class="" href="{{/contact|relative_url}}">聯絡方式</a>
                     </li>
                 </ul>
             </div> 
