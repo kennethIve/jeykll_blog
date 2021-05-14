@@ -24,9 +24,9 @@ email: ouruhk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   ourUhk ‧ 我們IU香港後援會
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kennethive.github.io/jeykll_blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  kennethive
 
 #social medio links
 facebook_url: https://facebook.com
